@@ -1,0 +1,8 @@
+prefix=/home/mahfouz/fuckin_ws/devel
+
+Name: communication
+Description: Description of communication
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mahfouz/fuckin_ws/devel/lib 
+Requires: 

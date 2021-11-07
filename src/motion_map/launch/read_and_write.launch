@@ -1,0 +1,17 @@
+<launch>
+      <arg name="port" default="/dev/ttyACM0"/>
+
+    <node pkg="joy" type="joy_node" name="joy_data"> 
+      <param name="dev" type="string" value="/dev/input/js0" />
+    </node>
+
+	<node pkg="distributor" type="distributor_node" name="distributor_node"/>
+
+      <node pkg="motion_map" type="map_motors_ps3" name="map_motors_ps3"/>
+	
+	<node pkg="GUI" name="cannon_calculations" type="cannon_calculations.py" output="screen"/> 
+
+    <node pkg="serial_example" type="serial_example_node" name="serial_example_node">
+      <param name="port" type="string" value="$(arg port)" />
+    </node>
+</launch>

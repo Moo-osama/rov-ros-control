@@ -1,0 +1,2 @@
+GUI:communication:depth_pid:distributor:line_follower_node:motion_map:motors:pid:pitch_pid:serial:serial_example_master:video_stream_opencv:yaw_pid
+-DCATKIN_DEVEL_PREFIX=/home/mahfouz/fuckin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mahfouz/fuckin_ws/install -G Unix Makefiles

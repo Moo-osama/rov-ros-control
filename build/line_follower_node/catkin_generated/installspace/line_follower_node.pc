@@ -1,0 +1,8 @@
+prefix=/home/mahfouz/fuckin_ws/install
+
+Name: line_follower_node
+Description: Description of line_follower_node
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mahfouz/fuckin_ws/install/lib 
+Requires: 

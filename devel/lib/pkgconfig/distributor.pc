@@ -1,0 +1,8 @@
+prefix=/home/mahfouz/fuckin_ws/devel
+
+Name: distributor
+Description: Description of distributor
+Version: 0.0.0
+Cflags: -I/home/mahfouz/fuckin_ws/devel/include
+Libs: -L/home/mahfouz/fuckin_ws/devel/lib 
+Requires: message_generation message_runtime roscpp rospy rosserial_arduino rosserial_client rosserial_python std_msgs
