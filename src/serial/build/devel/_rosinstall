@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/os/rov19/new_ws/src/serial/build/devel/setup.sh
